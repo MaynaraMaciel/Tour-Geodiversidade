@@ -1,0 +1,383 @@
+{
+    "camera":
+    {
+        "fov":
+        {
+            "default": 90,
+            "min": 50,
+            "max": 120
+        }
+    },
+
+    "story":
+    {
+        "uid": "hotspots-DOM-story",
+        "name": "Hotspots DOM Story",
+        "slug": "hotspots-dom-story",
+        "description": "This is sample of DOM hotspots",
+        "default": "scene-0",
+
+        "scenes":
+        [
+            {
+                "uid": "scene-0",
+                "name": "First scene",
+                "slug": "first-scene",
+                "description": "This is the first and only scene",
+
+                "media":
+                {
+                    "uid": "media-0",
+                    "type": "image",
+
+                    "source":
+                    {
+                        "format": "equi",
+                        "url": "imagens/entradaCachoeiraEditNewB.jpg"
+                    }
+                },
+
+                "camera":
+                {
+                    "yaw":
+                    {
+                        "default": 4
+                    }
+                },
+
+                "hotspots":
+                [
+                    {
+                        "uid": "hotspot-dom-one",
+                        "interactive": true,
+                        "type": "dom",
+
+                        "dom":
+                        {
+                            "id": "hotspot-one",
+                            "width": "5em",
+                            "height": "5em",
+                            "color": "transparent",
+                            "index": 1,
+                            "class": [ "media-style__primary", "content-style__primary" ]
+                        },
+
+                        "transform":
+                        {
+                            "position": {
+                                "x": -100,
+                                "y": 100
+                            }
+                        }
+                    },
+
+                    {
+                        "uid": "hotspot-dom-two",
+                        "interactive": true,
+                        "type": "dom",
+
+                        "dom":
+                        {
+                            "id": "hotspot-two",
+                            "width": "5em",
+                            "height": "5em",
+                            "color": "transparent",
+                            "index": 2,
+                            "class": [ "media-style__pin", "content-style__above"]
+                        },
+
+                        "transform":
+                        {
+                            "position": {
+                                "x": 100,
+                                "y": 100
+                            }
+                        }
+                    },
+
+                    {
+                        "uid": "hotspot-dom-three",
+                        "interactive": true,
+                        "type": "dom",
+
+                        "dom":
+                        {
+                            "id": "hotspot-three",
+                            "width": "5em",
+                            "height": "5em",
+                            "color": "transparent",
+                            "index": 3,
+                            "class": [ "content-style__primary" ]
+                        },
+
+                        "transform":
+                        {
+                            "position": {
+                                "x": 0,
+                                "y": -100
+                            }
+                        }
+                    },
+
+                    {
+                        "uid": "hotspot-dom-four",
+                        "interactive": true,
+                        "type": "dom",
+
+                        "dom":
+                        {
+                            "id": "hotspot-four",
+                            "width": "5em",
+                            "height": "5em",
+                            "color": "transparent",
+                            "index": 4,
+                            "class": [ "content-style__primary", "media-style__see-through" ]
+                        },
+
+                        "transform":
+                        {
+                            "position": {
+                                "theta": 90,
+                                "phi": 0
+                            }
+                        }
+                    },
+
+                    {
+                        "uid": "hotspot-dom-five",
+                        "interactive": true,
+                        "type": "dom",
+
+                        "dom":
+                        {
+                            "id": "hotspot-five",
+                            "width": "5em",
+                            "height": "5em",
+                            "color": "transparent",
+                            "index": 5,
+                            "class": [ "content-style__above", "media-style__see-through", "hover-trig" ]
+                        },
+
+                        "transform":
+                        {
+                            "position": {
+                                "theta": -90,
+                                "phi": 0
+                            }
+                        }
+                    },
+
+                    {
+                        "uid": "hotspot-dom-six",
+                        "interactive": true,
+                        "type": "dom",
+
+                        "dom":
+                        {
+                            "id": "hotspot-six",
+                            "width": "5em",
+                            "height": "5em",
+                            "color": "transparent",
+                            "index": 6,
+                            "class": [ "media-style__pin", "content-style__above", "hover-trig" ]
+                        },
+
+                        "transform":
+                        {
+                            "position": {
+                                "theta": 160,
+                                "phi": 5
+                            }
+                        }
+                    },
+
+                    {
+                        "uid": "hotspot-s0-0",
+
+                        "transform":
+                        {
+                            "position":
+                            {
+                                "theta": 0,
+                                "phi": -10.5,
+                                "radius": 400
+                            },
+
+                            "rotation":
+                            {
+                                "x": 80
+                            }
+                        },
+
+                        "geometry":
+                        {
+                            "type": "plane",
+                            "options":
+                            {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material":
+                        {
+                            "image": "https://cdn.forgejs.org/samples/hotspots-actions/ChevronUpCircle_white_64.png",
+                            "opacity": 1
+                        },
+
+                        "events":
+                        {
+                            "onClick": ["action-loadscene-1", "action-camera-0"]
+                        }
+                    }
+
+                ]
+            },
+
+            {
+                "uid": "scene-1",
+                "name": "Second scene",
+                "slug": "second-scene",
+                "description":"This is the second scene",
+
+                "media":
+                {
+                    "uid": "media-1",
+                    "type": "image",
+
+                    "source":
+                    {
+                        "format": "equi",
+                        "url": "imagens/direitaEditNewB.jpg"
+                    }
+                },
+
+                "camera":
+                {
+                    "yaw":
+                    {
+                        "default": 5.5
+                    }
+                },
+
+                "hotspots":
+                [
+                    {
+                        "uid": "hotspot-s1-0",
+
+                        "transform":
+                        {
+                            "position":
+                            {
+                                "theta": 0,
+                                "phi": -10.5,
+                                "radius": 400
+                            },
+
+                            "rotation":
+                            {
+                                "x": 80
+                            }
+                        },
+
+                        "geometry":
+                        {
+                            "type": "plane",
+                            "options":
+                            {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material":
+                        {
+                            "image": "https://cdn.forgejs.org/samples/hotspots-actions/ChevronUpCircle_white_64.png",
+                            "opacity": 1
+                        },
+
+                        "events":
+                        {
+                            "onClick": ["action-loadscene-0", "action-camera-1"]
+                        }
+                    }
+
+                ]
+            }
+        ]
+    },
+
+    "actions":
+    [
+        {
+            "uid":"action-loadscene-0",
+            "target": "viewer.story",
+
+            "method":
+            {
+                "name": "loadScene",
+                "args": ["scene-0"]
+            }
+        },
+
+        {
+            "uid":"action-loadscene-1",
+            "target": "viewer.story",
+
+            "method":
+            {
+                "name": "loadScene",
+                "args": ["scene-1"]
+            }
+        },
+
+        {
+            "uid":"action-camera-0",
+            "target": "viewer.renderer.camera",
+
+            "method":
+            {
+                "name": "lookAt",
+                "args": [5, 0, 0]
+            }
+        },
+
+        {
+            "uid":"action-camera-1",
+            "target": "viewer.renderer.camera",
+
+            "method":
+            {
+                "name": "lookAt",
+                "args": [0, 0, 0]
+            }
+        }
+    ],
+
+    "plugins":
+    {
+        "prefix": "forgeJsPackage/samples/plugins/",
+
+        "engines":
+        [
+            {
+                "uid": "org.forgejs.gyroscopebutton",
+                "url": "GyroscopeButton/"
+            }
+        ],
+
+        "instances":
+        [
+            {
+                "uid": "gyrobutton",
+                "engine": "org.forgejs.gyroscopebutton",
+
+                "options":
+                {
+                    "bottom": 10,
+                    "left": 10
+                }
+            }
+        ]
+    }
+}
