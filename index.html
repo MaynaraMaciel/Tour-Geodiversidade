@@ -1,57 +1,118 @@
 <!DOCTYPE html>
 
 <html lang="pt-BR">
-	<head>
-		<meta charset="utf-8">
-		<meta author="author" content="Luiz Joca">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0,
+
+<head>
+    <meta charset="utf-8">
+    <meta author="author" content="maynara">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,
 		minimum-scale=1.0, maximum-scale=1.0">
-		<meta name="apple-mobile-web-app-capable" content="yes">
-		<meta name="apple-mobile-web-app-status-bar-style" content="black">
-		<meta http-equiv="x-ua-compatible" content="IE=edge">
-		
-		<title>Tour Virtual - Geodiversidade</title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
 
-		<!-- Bibliotecas CSS -->
-		<link rel="stylesheet" href="normalize.css">
-		<link rel="stylesheet" href="main.css">
+    <title>Tour Virtual - Geodiversidade</title>
 
-		<!-- Aplicação de Estilo Inicial -->
-		<style type="text/css">
-			@-ms-viewport { width: device-width }
-			@-o-viewport { width: device-width; zoom: 1.0; min-zoom: 1.0; max-zoom: 1.0; }
-			@viewport { width: device-width; zoom: 1.0; min-zoom: 1.0; max-zoom: 1.0; }
+    <!-- Bibliotecas CSS -->
+    <link rel="stylesheet" href="paginas/normalize.css">
+    <link rel="stylesheet" href="paginas/main.css">
 
-			html, body{
-				height: 100%;
-				margin: 0;
-				padding: 0;
-				overflow: hidden;
-			}
+    <!-- Incluir o projeto customizado do threejs -->
+    <script src="./lib/three.js/three.r86.custom.min.js"></script>
 
-			div#container{
-				height: 100%;
-			}
-		</style>
-	</head>
+    <!-- Incluir a biblioteca Hammer.js -->
+    <script src="./lib/hammer.js/hammer.min.js"></script>
+    <style>
+        div h1,
+        h2,
+        h3,
+        h4,
+        h5 {
+            color: white;
+            text-align: center;
+        }
+        
+        .space-even {
+            margin-right: 25px;
+            margin-left: 25px;
+        }
+    </style>
+</head>
 
-	<body>
-		<div id="container"></div>
+<body style="margin-bottom:150px;background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('./imagens/capas/entrada_cachoeira.jpg');background-size: cover;">
+    <div id="container" style="position: initial;">
+        <div class="row">
+            <div class="col-12" style="text-align: center;">
+                <h1>Tour Virual - Geodiversidade</h1>
+            </div>
+
+            <div class="col-6" style="margin-top: 5em;">
+                <h4 style="margin-bottom: 20px;">Entrada Cachoeira</h4>
+                <div style="display: flex;justify-content: center;flex-wrap: wrap;">
+                    <div class="space-even">
+                        <a href="./paginas/entrada_cachoeira#first-scene&uid=scene-0">
+                            <img class="img-capa" src="./imagens/capas/entrada_cachoeira.jpg" alt="entrada cachoeira" width="100" height="100" style="border: 2px solid #fff;object-fit: cover;">
+                        </a>
+                    </div>
+                    <div class="space-even">
+                        <a href="./paginas/entrada_cachoeira#second-scene&uid=scene-1">
+                            <img class="img-capa" src="./imagens/capas/entrada_cachoeira2.jpg" alt="entrada cachoeira2" width="100" height="100" style="border: 2px solid #fff;object-fit: cover;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6" style="margin-top: 5em;">
+                <h4 style="margin-bottom: 20px;">Entrada Cachoeira</h4>
+                <div style="display: flex;justify-content: center;flex-wrap: wrap;">
+                    <div class="space-even">
+                        <a href="./paginas/entrada_cachoeira#first-scene&uid=scene-0">
+                            <img class="img-capa" src="./imagens/capas/entrada_cachoeira.jpg" alt="entrada cachoeira" width="100" height="100" style="border: 2px solid #fff;object-fit: cover;">
+                        </a>
+                    </div>
+                    <div class="space-even">
+                        <a href="./paginas/entrada_cachoeira#second-scene&uid=scene-1">
+                            <img class="img-capa" src="./imagens/capas/entrada_cachoeira2.jpg" alt="entrada cachoeira2" width="100" height="100" style="border: 2px solid #fff;object-fit: cover;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6" style="margin-top: 5em;">
+                <h4 style="margin-bottom: 20px;">Entrada Cachoeira</h4>
+                <div style="display: flex;justify-content: center;flex-wrap: wrap;">
+                    <div class="space-even">
+                        <a href="./paginas/entrada_cachoeira#first-scene&uid=scene-0">
+                            <img class="img-capa" src="./imagens/capas/entrada_cachoeira.jpg" alt="entrada cachoeira" width="100" height="100" style="border: 2px solid #fff;object-fit: cover;">
+                        </a>
+                    </div>
+                    <div class="space-even">
+                        <a href="./paginas/entrada_cachoeira#second-scene&uid=scene-1">
+                            <img class="img-capa" src="./imagens/capas/entrada_cachoeira2.jpg" alt="entrada cachoeira2" width="100" height="100" style="border: 2px solid #fff;object-fit: cover;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6" style="margin-top: 5em;">
+                <h4 style="margin-bottom: 20px;">Entrada Cachoeira</h4>
+                <div style="display: flex;justify-content: center;flex-wrap: wrap;">
+                    <div class="space-even">
+                        <a href="./paginas/entrada_cachoeira#first-scene&uid=scene-0">
+                            <img class="img-capa" src="./imagens/capas/entrada_cachoeira.jpg" alt="entrada cachoeira" width="100" height="100" style="border: 2px solid #fff;object-fit: cover;">
+                        </a>
+                    </div>
+                    <div class="space-even">
+                        <a href="./paginas/entrada_cachoeira#second-scene&uid=scene-1">
+                            <img class="img-capa" src="./imagens/capas/entrada_cachoeira2.jpg" alt="entrada cachoeira2" width="100" height="100" style="border: 2px solid #fff;object-fit: cover;">
+                        </a>
+                    </div>
+                </div>
+            </div>
 
 
-		<!-- Incluir o projeto customizado do threejs -->
-		<script src="./lib/three.js/three.r86.custom.min.js"></script>
-		
-		<!-- Incluir a biblioteca Hammer.js -->
-		<script src="./lib/hammer.js/hammer.min.js"></script>
-		
-		<!-- Incluir a biblioteca ForgeJS -->
-		<script src="./lib/forge/forge.min.js"></script>
-		
-		<!-- Iniciar o ForgeJS -->
-		<script type="text/javascript">
-			// Criando o visualizador
-			var visualizador = new FORGE.Viewer("container", "config.json");
-		</script>
-	</body>
+        </div>
+    </div>
+</body>
+
 </html>
