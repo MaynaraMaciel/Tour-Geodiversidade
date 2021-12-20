@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta author="author" content="maynara">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,
+		minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+
+    <title>Tour Virtual - Geodiversidade</title>
+
+    <!-- Bibliotecas CSS -->
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="main.css">
+
+    <!-- Aplicação de Estilo Inicial -->
+    <style type="text/css">
+        @-ms-viewport {
+            width: device-width
+        }
+        
+        @-o-viewport {
+            width: device-width;
+            zoom: 1.0;
+            min-zoom: 1.0;
+            max-zoom: 1.0;
+        }
+        
+        @viewport {
+            width: device-width;
+            zoom: 1.0;
+            min-zoom: 1.0;
+            max-zoom: 1.0;
+        }
+        
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        
+        div#container {
+            height: 100%;
+        }
+        
+        .loader {
+            position: relative;
+            left: -10005px;
+            width: 30px;
+            height: 30px;
+            border-radius: 25px;
+            background-color: #6fbf41;
+            color: #6fbf41;
+            box-shadow: 10009px 0 0 0 #6fbf41, 10049px 0 0 0 #6fbf41, 10089px 0 0 0 #6fbf41;
+            animation: dotCarousel 1.5s infinite linear;
+        }
+        
+        @keyframes dotCarousel {
+            0% {
+                box-shadow: 10009px 0 0 -1px #6fbf41, 10049px 0 0 1px #6fbf41, 10089px 0 0 -1px #6fbf41;
+            }
+            50% {
+                box-shadow: 10089px 0 0 -1px #6fbf41, 10009px 0 0 -1px #6fbf41, 10049px 0 0 1px #6fbf41;
+            }
+            100% {
+                box-shadow: 10049px 0 0 1px #6fbf41, 10089px 0 0 -1px #6fbf41, 10009px 0 0 -1px #6fbf41;
+            }
+        }
+        
+        #displayCentered {
+            position: absolute;
+            z-index: 20;
+            left: 43%;
+            top: 35%;
+            color: #9dff64;
+            text-shadow: 1px 1px #344847;
+            font-weight: bold;
+            font-size: 22px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <a href="./../" style="position: absolute;color: white;text-shadow: 1px 1px black;font-size: 20px;z-index: 20;text-decoration: none;">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" viewBox="0 0 24 18" width="24px" height="24px">
+            <path
+                d="M 12 2.0996094 L 1 12 L 4 12 L 4 21 L 11 21 L 11 15 L 13 15 L 13 21 L 20 21 L 20 12 L 23 12 L 12 2.0996094 z M 12 4.7910156 L 18 10.191406 L 18 11 L 18 19 L 15 19 L 15 13 L 9 13 L 9 19 L 6 19 L 6 10.191406 L 12 4.7910156 z" />
+        </svg> Início
+    </a>
+    <div id="displayCentered">
+        <div class="loader"></div>
+        Carregando
+    </div>
+    <div id="container"></div>
+
+    <!-- Incluir o projeto customizado do threejs -->
+    <script src="./../lib/three.js/three.r86.custom.min.js"></script>
+
+    <!-- Incluir a biblioteca Hammer.js -->
+    <script src="./../lib/hammer.js/hammer.min.js"></script>
+
+    <!-- Incluir a biblioteca ForgeJS -->
+    <script src="./../lib/forge/forge.min.js"></script>
+
+    <!-- Iniciar o ForgeJS -->
+    <script type="text/javascript">
+        window.onload = imgOnload;
+
+        function imgOnload() {
+            // Criando o visualizador
+            var visualizador = new FORGE.Viewer("container", "config.json");
+            var imgCanvas = document.querySelector('canvas');
+            if (imgCanvas != null) {
+                document.getElementById('displayCentered').style.display = 'none';
+                return;
+            } else {
+                asyncLoad();
+            }
+
+        }
+
+        function asyncLoad() {
+            setTimeout(function() {
+                var imgCanvas = document.querySelector('canvas');
+                if (imgCanvas != null) {
+                    document.getElementById('displayCentered').style.display = 'none';
+                    return;
+                } else {
+                    asyncLoad();
+                }
+            }, 1000);
+        }
+    </script>
+</body>
+
+</html>

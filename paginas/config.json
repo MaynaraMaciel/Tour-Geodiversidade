@@ -26,7 +26,7 @@
 
                     "source": {
                         "format": "equi",
-                        "url": "./../imagens/entradaCachoeiraEditNewB.jpg"
+                        "url": "./../imagens/C_1.jpg"
                     }
                 },
 
@@ -216,7 +216,7 @@
 
                     "source": {
                         "format": "equi",
-                        "url": "./../imagens/direitaEditNewB.jpg"
+                        "url": "./../imagens/C_2.jpg"
                     }
                 },
 
@@ -231,13 +231,14 @@
 
                         "transform": {
                             "position": {
-                                "theta": 0,
-                                "phi": -10.5,
-                                "radius": 400
+                                "theta": 195,
+                                "phi": -10,
+                                "radius": 350
                             },
 
                             "rotation": {
-                                "x": 80
+                                "x": 67,
+                                "y": 160
                             }
                         },
 
@@ -260,7 +261,182 @@
                     }
 
                 ]
+            },
+            {
+                "uid": "scene-2",
+                "name": "3 scene",
+                "slug": "3-scene",
+                "description": "This is the 3 scene",
+
+                "media": {
+                    "uid": "media-1",
+                    "type": "image",
+
+                    "source": {
+                        "format": "equi",
+                        "url": "./../imagens/C_3.jpg"
+                    }
+                },
+
+                "camera": {
+                    "yaw": {
+                        "default": 5.5
+                    }
+                },
+
+                "hotspots": [{
+                        "uid": "hotspot-s1-0",
+
+                        "transform": {
+                            "position": {
+                                "theta": 195,
+                                "phi": -10,
+                                "radius": 350
+                            },
+
+                            "rotation": {
+                                "x": 67,
+                                "y": 160
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image": "https://cdn.forgejs.org/samples/hotspots-actions/ChevronUpCircle_white_64.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-3", "action-camera-1"]
+                        }
+                    }
+
+                ]
+            },
+            {
+                "uid": "scene-3",
+                "name": "4 scene",
+                "slug": "4-scene",
+                "description": "This is the 4 scene",
+
+                "media": {
+                    "uid": "media-1",
+                    "type": "image",
+
+                    "source": {
+                        "format": "equi",
+                        "url": "./../imagens/C_4.jpg"
+                    }
+                },
+
+                "camera": {
+                    "yaw": {
+                        "default": 5.5
+                    }
+                },
+
+                "hotspots": [{
+                        "uid": "hotspot-s1-0",
+
+                        "transform": {
+                            "position": {
+                                "theta": 195,
+                                "phi": -10,
+                                "radius": 350
+                            },
+
+                            "rotation": {
+                                "x": 67,
+                                "y": 160
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image": "https://cdn.forgejs.org/samples/hotspots-actions/ChevronUpCircle_white_64.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-5", "action-camera-1"]
+                        }
+                    }
+
+                ]
+            },
+            {
+                "uid": "scene-4",
+                "name": "5 scene",
+                "slug": "5-scene",
+                "description": "This is the 5 scene",
+
+                "media": {
+                    "uid": "media-1",
+                    "type": "image",
+
+                    "source": {
+                        "format": "equi",
+                        "url": "./../imagens/C_5.jpg"
+                    }
+                },
+
+                "camera": {
+                    "yaw": {
+                        "default": 5.5
+                    }
+                },
+
+                "hotspots": [{
+                        "uid": "hotspot-s1-0",
+
+                        "transform": {
+                            "position": {
+                                "theta": 195,
+                                "phi": -10,
+                                "radius": 350
+                            },
+
+                            "rotation": {
+                                "x": 67,
+                                "y": 160
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image": "https://cdn.forgejs.org/samples/hotspots-actions/ChevronUpCircle_white_64.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-4", "action-camera-1"]
+                        }
+                    }
+
+                ]
             }
+
         ]
     },
 
@@ -306,7 +482,7 @@
     ],
 
     "plugins": {
-        "prefix": "forgeJsPackage/samples/plugins/",
+        "prefix": "../lib/forge/",
 
         "engines": [{
             "uid": "org.forgejs.gyroscopebutton",
