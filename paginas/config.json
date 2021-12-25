@@ -37,138 +37,6 @@
                 },
 
                 "hotspots": [{
-                        "uid": "hotspot-dom-one",
-                        "interactive": true,
-                        "type": "dom",
-
-                        "dom": {
-                            "id": "hotspot-one",
-                            "width": "5em",
-                            "height": "5em",
-                            "color": "transparent",
-                            "index": 1,
-                            "class": ["media-style__primary", "content-style__primary"]
-                        },
-
-                        "transform": {
-                            "position": {
-                                "x": -100,
-                                "y": 100
-                            }
-                        }
-                    },
-
-                    {
-                        "uid": "hotspot-dom-two",
-                        "interactive": true,
-                        "type": "dom",
-
-                        "dom": {
-                            "id": "hotspot-two",
-                            "width": "5em",
-                            "height": "5em",
-                            "color": "transparent",
-                            "index": 2,
-                            "class": ["media-style__pin", "content-style__above"]
-                        },
-
-                        "transform": {
-                            "position": {
-                                "x": 100,
-                                "y": 100
-                            }
-                        }
-                    },
-
-                    {
-                        "uid": "hotspot-dom-three",
-                        "interactive": true,
-                        "type": "dom",
-
-                        "dom": {
-                            "id": "hotspot-three",
-                            "width": "5em",
-                            "height": "5em",
-                            "color": "transparent",
-                            "index": 3,
-                            "class": ["content-style__primary"]
-                        },
-
-                        "transform": {
-                            "position": {
-                                "x": 0,
-                                "y": -100
-                            }
-                        }
-                    },
-
-                    {
-                        "uid": "hotspot-dom-four",
-                        "interactive": true,
-                        "type": "dom",
-
-                        "dom": {
-                            "id": "hotspot-four",
-                            "width": "5em",
-                            "height": "5em",
-                            "color": "transparent",
-                            "index": 4,
-                            "class": ["content-style__primary", "media-style__see-through"]
-                        },
-
-                        "transform": {
-                            "position": {
-                                "theta": 90,
-                                "phi": 0
-                            }
-                        }
-                    },
-
-                    {
-                        "uid": "hotspot-dom-five",
-                        "interactive": true,
-                        "type": "dom",
-
-                        "dom": {
-                            "id": "hotspot-five",
-                            "width": "5em",
-                            "height": "5em",
-                            "color": "transparent",
-                            "index": 5,
-                            "class": ["content-style__above", "media-style__see-through", "hover-trig"]
-                        },
-
-                        "transform": {
-                            "position": {
-                                "theta": -90,
-                                "phi": 0
-                            }
-                        }
-                    },
-
-                    {
-                        "uid": "hotspot-dom-six",
-                        "interactive": true,
-                        "type": "dom",
-
-                        "dom": {
-                            "id": "hotspot-six",
-                            "width": "5em",
-                            "height": "5em",
-                            "color": "transparent",
-                            "index": 6,
-                            "class": ["media-style__pin", "content-style__above", "hover-trig"]
-                        },
-
-                        "transform": {
-                            "position": {
-                                "theta": 160,
-                                "phi": 5
-                            }
-                        }
-                    },
-
-                    {
                         "uid": "hotspot-s0-0",
 
                         "transform": {
@@ -198,6 +66,39 @@
 
                         "events": {
                             "onClick": ["action-loadscene-1", "action-camera-0"]
+                        }
+                    },
+                    {
+                        "uid": "hotspot-s0-1",
+
+                        "transform": {
+                            "position": {
+                                "theta": -70,
+                                "phi": -5,
+                                "radius": 450
+                            },
+
+                            "rotation": {
+                                "x": 75,
+                                "y": 70
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image": "https://cdn.forgejs.org/samples/hotspots-actions/ChevronUpCircle_white_64.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-2", "action-camera-1"]
                         }
                     }
 
@@ -237,8 +138,8 @@
                             },
 
                             "rotation": {
-                                "x": 67,
-                                "y": 160
+                                "x": 60,
+                                "y": 190
                             }
                         },
 
@@ -257,6 +158,39 @@
 
                         "events": {
                             "onClick": ["action-loadscene-0", "action-camera-1"]
+                        }
+                    },
+                    {
+                        "uid": "hotspot-s1-1",
+
+                        "transform": {
+                            "position": {
+                                "theta": 280,
+                                "phi": -4,
+                                "radius": 370
+                            },
+
+                            "rotation": {
+                                "x": 75,
+                                "y": 90
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image": "https://cdn.forgejs.org/samples/hotspots-actions/ChevronUpCircle_white_64.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-2", "action-camera-1"]
                         }
                     }
 
@@ -285,18 +219,18 @@
                 },
 
                 "hotspots": [{
-                        "uid": "hotspot-s1-0",
+                        "uid": "hotspot-s2-0",
 
                         "transform": {
                             "position": {
-                                "theta": 195,
+                                "theta": 0,
                                 "phi": -10,
                                 "radius": 350
                             },
 
                             "rotation": {
-                                "x": 67,
-                                "y": 160
+                                "x": 60,
+                                "y": 190
                             }
                         },
 
@@ -314,7 +248,73 @@
                         },
 
                         "events": {
-                            "onClick": ["action-loadscene-3", "action-camera-1"]
+                            "onClick": ["action-loadscene-1", "action-camera-0"]
+                        }
+                    },
+                    {
+                        "uid": "hotspot-s2-1",
+
+                        "transform": {
+                            "position": {
+                                "theta": 40,
+                                "phi": -2,
+                                "radius": 350
+                            },
+
+                            "rotation": {
+                                "x": 75,
+                                "y": 130
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image": "https://cdn.forgejs.org/samples/hotspots-actions/ChevronUpCircle_white_64.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-1", "action-camera-1"]
+                        }
+                    },
+                    {
+                        "uid": "hotspot-s2-2",
+
+                        "transform": {
+                            "position": {
+                                "theta": 315,
+                                "phi": -2,
+                                "radius": 350
+                            },
+
+                            "rotation": {
+                                "x": 40,
+                                "y": 30
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image": "https://cdn.forgejs.org/samples/hotspots-actions/ChevronUpCircle_white_64.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-4", "action-camera-0"]
                         }
                     }
 
@@ -343,18 +343,18 @@
                 },
 
                 "hotspots": [{
-                        "uid": "hotspot-s1-0",
+                        "uid": "hotspot-s3-0",
 
                         "transform": {
                             "position": {
-                                "theta": 195,
-                                "phi": -10,
-                                "radius": 350
+                                "theta": 50,
+                                "phi": 2,
+                                "radius": 250
                             },
 
                             "rotation": {
-                                "x": 67,
-                                "y": 160
+                                "x": 83,
+                                "y": 130
                             }
                         },
 
@@ -372,7 +372,7 @@
                         },
 
                         "events": {
-                            "onClick": ["action-loadscene-5", "action-camera-1"]
+                            "onClick": ["action-loadscene-4", "action-camera-1"]
                         }
                     }
 
@@ -401,18 +401,18 @@
                 },
 
                 "hotspots": [{
-                        "uid": "hotspot-s1-0",
+                        "uid": "hotspot-s4-0",
 
                         "transform": {
                             "position": {
-                                "theta": 195,
+                                "theta": 135,
                                 "phi": -10,
                                 "radius": 350
                             },
 
                             "rotation": {
                                 "x": 67,
-                                "y": 160
+                                "y": 215
                             }
                         },
 
@@ -430,7 +430,40 @@
                         },
 
                         "events": {
-                            "onClick": ["action-loadscene-4", "action-camera-1"]
+                            "onClick": ["action-loadscene-3", "action-camera-1"]
+                        }
+                    },
+                    {
+                        "uid": "hotspot-s4-1",
+
+                        "transform": {
+                            "position": {
+                                "theta": 35,
+                                "phi": -2,
+                                "radius": 350
+                            },
+
+                            "rotation": {
+                                "x": 70,
+                                "y": 145
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image": "https://cdn.forgejs.org/samples/hotspots-actions/ChevronUpCircle_white_64.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-2", "action-camera-1"]
                         }
                     }
 
@@ -459,6 +492,115 @@
                 "args": ["scene-1"]
             }
         },
+        {
+            "uid": "action-loadscene-2",
+            "target": "viewer.story",
+
+            "method": {
+                "name": "loadScene",
+                "args": ["scene-2"]
+            }
+        },
+        {
+            "uid": "action-loadscene-3",
+            "target": "viewer.story",
+
+            "method": {
+                "name": "loadScene",
+                "args": ["scene-3"]
+            }
+        },
+        {
+            "uid": "action-loadscene-4",
+            "target": "viewer.story",
+
+            "method": {
+                "name": "loadScene",
+                "args": ["scene-4"]
+            }
+        },
+        {
+            "uid": "action-loadscene-5",
+            "target": "viewer.story",
+
+            "method": {
+                "name": "loadScene",
+                "args": ["scene-5"]
+            }
+        },
+
+        {
+            "uid": "action-loadscene-6",
+            "target": "viewer.story",
+
+            "method": {
+                "name": "loadScene",
+                "args": ["scene-6"]
+            }
+        },
+        {
+            "uid": "action-loadscene-7",
+            "target": "viewer.story",
+
+            "method": {
+                "name": "loadScene",
+                "args": ["scene-7"]
+            }
+        },
+        {
+            "uid": "action-loadscene-8",
+            "target": "viewer.story",
+
+            "method": {
+                "name": "loadScene",
+                "args": ["scene-8"]
+            }
+        },
+        {
+            "uid": "action-loadscene-9",
+            "target": "viewer.story",
+
+            "method": {
+                "name": "loadScene",
+                "args": ["scene-9"]
+            }
+        },
+        {
+            "uid": "action-loadscene-10",
+            "target": "viewer.story",
+
+            "method": {
+                "name": "loadScene",
+                "args": ["scene-10"]
+            }
+        },
+        {
+            "uid": "action-loadscene-11",
+            "target": "viewer.story",
+
+            "method": {
+                "name": "loadScene",
+                "args": ["scene-11"]
+            }
+        },
+        {
+            "uid": "action-loadscene-12",
+            "target": "viewer.story",
+
+            "method": {
+                "name": "loadScene",
+                "args": ["scene-12"]
+            }
+        },
+        {
+            "uid": "action-loadscene-13",
+            "target": "viewer.story",
+
+            "method": {
+                "name": "loadScene",
+                "args": ["scene-13"]
+            }
+        },
 
         {
             "uid": "action-camera-0",
@@ -476,7 +618,16 @@
 
             "method": {
                 "name": "lookAt",
-                "args": [0, 0, 0]
+                "args": [150, 0, 0]
+            }
+        },
+        {
+            "uid": "action-camera-1",
+            "target": "viewer.renderer.camera",
+
+            "method": {
+                "name": "lookAt",
+                "args": [200, 0, 0]
             }
         }
     ],
