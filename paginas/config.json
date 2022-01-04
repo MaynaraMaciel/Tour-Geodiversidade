@@ -812,8 +812,8 @@
 
                         "transform": {
                             "position": {
-                                "theta": 50,
-                                "phi": 2,
+                                "theta": 215,
+                                "phi": -10,
                                 "radius": 250
                             },
 
@@ -869,14 +869,14 @@
 
                         "transform": {
                             "position": {
-                                "theta": 50,
-                                "phi": 2,
+                                "theta": 180,
+                                "phi": -10,
                                 "radius": 250
                             },
 
                             "rotation": {
                                 "x": 83,
-                                "y": 130
+                                "y": 170
                             }
                         },
 
