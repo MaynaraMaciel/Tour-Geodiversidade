@@ -1,2 +1,3 @@
+Sitemap: https://maynaramaciel.github.io/Tour-Geodiversidade/
 User-agent: *
 Allow: /
