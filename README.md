@@ -3,14 +3,15 @@
 Um tour virtual imersivo que permite explorar geossítios do Geopark Araripe através de experiências 360°, proporcionando uma jornada educativa pela geodiversidade do sul do Ceará. O projeto funciona como um "Google Street View" especializado em locais de interesse geológico.<br>
 <br>
 🎯 Objetivo<br>
-Democratizar o acesso ao conhecimento geológico<br>
+```
+ * Democratizar o acesso ao conhecimento geológico<br>
 
-Oferecer uma experiência educativa imersiva
+ * Oferecer uma experiência educativa imersiva
 
-Preservar digitalmente geossítios importantes
+ * Preservar digitalmente geossítios importantes
 
-Promover o Geopark Araripe como patrimônio natural
-
+ * Promover o Geopark Araripe como patrimônio natural
+```
 🗺️ Geossítios Exploráveis
 🌊 Cachoeira de Missão Velha
 📍 Localização: Sítio Cachoeira, 3km de Missão Velha
