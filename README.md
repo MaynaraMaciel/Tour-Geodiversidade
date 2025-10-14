@@ -15,38 +15,45 @@ Um tour virtual imersivo que permite explorar geossítios do Geopark Araripe atr
 🗺️ Geossítios Exploráveis
 ```
 🌊 Cachoeira de Missão Velha
-📍 Localização: Sítio Cachoeira, 3km de Missão Velha
+  📍 Localização: Sítio Cachoeira, 3km de Missão Velha
+  
+  🪨 Geologia: Arenitos de sistemas fluviais entrelaçados
+  
+  👥 Histórico: Vestígios indígenas Kariri
+  
+  🔬 Importância: Registro de paleocorrentes da Formação Cariri
 
-🪨 Geologia: Arenitos de sistemas fluviais entrelaçados
 
-👥 Histórico: Vestígios indígenas Kariri
 
-🔬 Importância: Registro de paleocorrentes da Formação Cariri
 
 🌳 Floresta Petrificada do Cariri
-📍 Localização: 6km de Missão Velha
+  📍 Localização: 6km de Missão Velha
+  
+  🪨 Geologia: Arenitos avermelhados com troncos silicificados
+  
+  🦕 Importância: Evidências paleobotânicas do período Jurássico
 
-🪨 Geologia: Arenitos avermelhados com troncos silicificados
 
-🦕 Importância: Evidências paleobotânicas do período Jurássico
 
 🏞️ Ponte de Pedra
-📍 Localização: 9km de Nova Olinda
+  📍 Localização: 9km de Nova Olinda
+  
+  🪨 Geologia: Formação rochosa natural sobre riacho
+  
+  🏺 Histórico: Sítio arqueológico com gravuras rupestres Kariri
+  
+  🔬 Importância: Arenitos da Formação Exu
 
-🪨 Geologia: Formação rochosa natural sobre riacho
 
-🏺 Histórico: Sítio arqueológico com gravuras rupestres Kariri
-
-🔬 Importância: Arenitos da Formação Exu
 
 ⛰️ Pontal de Santa Cruz
-📍 Localização: Topo da Chapada do Araripe (750m), 4km de Santana do Cariri
-
-🌄 Característica: Vista panorâmica do vale do rio Cariús
-
-🪨 Geologia: Formação Exu
-
-⛪ Cultural: Significado religioso e lendas locais
+  📍 Localização: Topo da Chapada do Araripe (750m), 4km de Santana do Cariri
+  
+  🌄 Característica: Vista panorâmica do vale do rio Cariús
+  
+  🪨 Geologia: Formação Exu
+  
+  ⛪ Cultural: Significado religioso e lendas locais
 ```
 
 🖱️ Como Navegar no Tour
