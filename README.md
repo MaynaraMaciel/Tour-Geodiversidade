@@ -79,7 +79,7 @@ Baixe todos os arquivos do projeto
 Abra o index.html em um navegador moderno
 
 Navegue pelos geossítios disponíveis
-
+```
 📁 Estrutura do Projeto
 text
 TOUR-GEODIVERSIDADE/
@@ -93,6 +93,8 @@ TOUR-GEODIVERSIDADE/
 │   └── 🏞️ C_1.jpg, F_1.jpg... # Imagens 360° dos geossítios
 ├── 📚 lib/                   # Bibliotecas (ForgeJS, Three.js, Hammer.js)
 └── 📖 paginas/               # Arquivos adicionais
+```
+
 🛠️ Tecnologias Utilizadas
 🎪 ForgeJS → Framework principal para tours 360°
 
