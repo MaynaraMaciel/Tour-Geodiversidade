@@ -13,6 +13,7 @@ Um tour virtual imersivo que permite explorar geossítios do Geopark Araripe atr
  * Promover o Geopark Araripe como patrimônio natural
 ```
 🗺️ Geossítios Exploráveis
+```
 🌊 Cachoeira de Missão Velha
 📍 Localização: Sítio Cachoeira, 3km de Missão Velha
 
@@ -46,8 +47,10 @@ Um tour virtual imersivo que permite explorar geossítios do Geopark Araripe atr
 🪨 Geologia: Formação Exu
 
 ⛪ Cultural: Significado religioso e lendas locais
+```
 
 🖱️ Como Navegar no Tour
+```
 🎮 Controles Básicos
 🖱️ Clique nas setas → Navegue entre os pontos do tour
 
@@ -56,15 +59,18 @@ Um tour virtual imersivo que permite explorar geossítios do Geopark Araripe atr
 🔍 Scroll do mouse → Zoom para aproximar dos detalhes
 
 📱 Toque na tela → Funcionalidades para dispositivos móveis
-
+```
 🎯 Elementos de Navegação
+```
 📍 Hotspots: Ícones de setas indicam pontos de transição
 
 🎪 Botão giroscópio: Ative no canto inferior esquerdo para mobile
 
 🏠 Botão início: Retorna à página inicial de qualquer ponto
+```
 
 🚀 Como Acessar
+```
 🌐 Online (Recomendado)
 Acesse o site do projeto
 
@@ -80,6 +86,7 @@ Baixe todos os arquivos do projeto
 Abra o index.html em um navegador moderno
 
 Navegue pelos geossítios disponíveis
+```
 ```
 📁 Estrutura do Projeto
 text
@@ -97,6 +104,7 @@ TOUR-GEODIVERSIDADE/
 ```
 
 🛠️ Tecnologias Utilizadas
+```
 🎪 ForgeJS → Framework principal para tours 360°
 
 🔄 Three.js → Renderização 3D no navegador
@@ -106,8 +114,10 @@ TOUR-GEODIVERSIDADE/
 🎨 CSS3 → Estilização e design responsivo
 
 📱 HTML5 → Estrutura semântica e acessível
+```
 
 👥 Público-Alvo
+```
 🎓 Estudantes de geografia, geologia e ciências ambientais
 
 🧭 Turistas e visitantes virtuais
@@ -117,7 +127,8 @@ TOUR-GEODIVERSIDADE/
 🌍 Público geral interessado em geodiversidade
 
 🏫 Instituições de ensino para atividades didáticas
-
+```
+```
 📱 Compatibilidade
 ✅ Computadores (Chrome, Firefox, Edge, Safari)
 
@@ -126,17 +137,27 @@ TOUR-GEODIVERSIDADE/
 ✅ Navegadores modernos com suporte a WebGL
 
 ✅ Conexões de internet variadas (otimizado para performance)
+```
 
 🔧 Contexto de Desenvolvimento
+```
 🏛️ Instituição: Laboratório de Geoprocessamento do Ceará, Departamento de Geologia - UFC
 
 👩‍💻 Desenvolvido por: Maynara Maciel
+```
 
-📍 Local: Geopark Araripe, Sul do Ceará
 
-🎯 Foco: Geoconservação e educação geológica
+📍 Local: 
+```
+Geopark Araripe, Sul do Ceará
+```
 
+🎯 Foco: 
+```
+Geoconservação e educação geológica
+```
 🔄 Expansões Futuras
+```
 O projeto está em constante evolução com:
 
 ➕ Adição de novos geossítios
@@ -148,7 +169,7 @@ O projeto está em constante evolução com:
 🌐 Integração com mais plataformas
 
 🌿 Desenvolvido com ❤️ para promover a educação geológica e a preservação da geodiversidade do Geopark Araripe
-
+```
 Geopark Araripe - Patrimônio Mundial da UNESCO
 Laboratório de Geoprocessamento do Ceará - UFC
 
