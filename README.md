@@ -170,6 +170,6 @@ O projeto está em constante evolução com:
 
 🌿 Desenvolvido com ❤️ para promover a educação geológica e a preservação da geodiversidade do Geopark Araripe
 ```
-Geopark Araripe - Patrimônio Mundial da UNESCO
+Geopark Araripe - Patrimônio Mundial da UNESCO <br>
 Laboratório de Geoprocessamento do Ceará - UFC
 
