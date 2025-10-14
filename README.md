@@ -1,4 +1,4 @@
-🌋 Tour Virtual - Geodiversidade do Geopark Araripe
+🌋 Tour Virtual - Geodiversidade do Geopark Araripe <br>
 📖 Sobre o Projeto
 Um tour virtual imersivo que permite explorar geossítios do Geopark Araripe através de experiências 360°, proporcionando uma jornada educativa pela geodiversidade do sul do Ceará. O projeto funciona como um "Google Street View" especializado em locais de interesse geológico.
 
