@@ -94,9 +94,8 @@ Abra o index.html em um navegador moderno
 
 Navegue pelos geossítios disponíveis
 ```
-```
 📁 Estrutura do Projeto
-text
+```
 TOUR-GEODIVERSIDADE/
 ├── 📄 index.html              # Página inicial com seleção de geossítios
 ├── 🎮 tour.html              # Página do tour virtual 360°
@@ -135,8 +134,8 @@ TOUR-GEODIVERSIDADE/
 
 🏫 Instituições de ensino para atividades didáticas
 ```
-```
 📱 Compatibilidade
+```
 ✅ Computadores (Chrome, Firefox, Edge, Safari)
 
 ✅ Tablets e celulares Android/iOS
