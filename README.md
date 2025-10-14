@@ -69,9 +69,7 @@ Um tour virtual imersivo que permite explorar geossítios do Geopark Araripe atr
 ```
 🎯 Elementos de Navegação
 ```
-📍 Hotspots: Ícones de setas indicam pontos de transição
-
-🎪 Botão giroscópio: Ative no canto inferior esquerdo para mobile
+📍 Setas: Ícones de setas indicam pontos de transição
 
 🏠 Botão início: Retorna à página inicial de qualquer ponto
 ```
